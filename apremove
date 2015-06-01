@@ -1,0 +1,11 @@
+#!/bin/bash
+#This script will remove an application indicated by the user
+#It will also remove any uneeded packages still on the system
+
+echo "type the package to remove" 
+
+read x
+
+sudo apt-get remove $x && sudo apt-get autoremove
+
+#end
