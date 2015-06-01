@@ -1,0 +1,14 @@
+#!/bin/bash
+#This script updates Ubuntu
+#it also runs the update command after the new repository has been updated
+sudo apt-get -f install 
+sudo apt-get update #"update" will rescan the repository list and add any new programs to it
+sudo apt-get upgrade #"upgrade" will apply any new updates to programs already installed to the new programs in the repository
+sudo apt-get autoremove #"autoremove" will remove any uneed programs dependencies and libraries
+sudo update-initramfs -v -u 
+echo "type sudo apt-get dist-upgrade to update all system components, or, sudo do-release-upgrade to update to the latest LTS version"
+
+read x
+
+$x
+#end
