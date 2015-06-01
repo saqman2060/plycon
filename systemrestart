@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script will restart ubuntu
+sudo shutdown -r now
+#end
