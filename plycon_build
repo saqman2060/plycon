@@ -1,0 +1,8 @@
+#This script will build the plycon convienence script
+
+sudo cp ./* /usr/local/bin/
+sudo chmod u+x /usr/local/bin/*
+sudo chown $USER /usr/local/bin/*
+sudo chgrp $USER /usr/local/bin/*
+
+#End script
