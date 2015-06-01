@@ -1,0 +1,13 @@
+#!/bin/bash
+#This script will run the apt-get program
+#The script will wait of the user to type in a package to install
+#and run the apt-get install command on that package
+#with will look for the package in the systems repository
+
+echo "please type the name of the package to install"
+
+read x
+
+sudo apt-get install $x && sudo apt-get autoremove
+
+#end script
