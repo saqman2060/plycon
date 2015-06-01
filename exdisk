@@ -1,0 +1,21 @@
+#!/bin/bash
+#Examine disk space usage
+#The most important aspects of the drive are evaluated, inodes, empty files, and disk space
+
+echo "check available and used space of the current partition"
+df -h
+
+echo "check used and available inodes on the current partition"
+df -hTi
+
+#echo "find and delete empty files and directories"
+#find /home/istimsak -type f -empty --delete
+#find /home/istimsak -type d -empty --delete
+
+echo "check how much disk space each directory on the booted partition"
+echo "enter the path of the directory to check for disk space"
+read x
+
+du -sch $x
+
+#end
