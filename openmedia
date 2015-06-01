@@ -1,0 +1,5 @@
+#!/bin/bash
+#This scrip will open the DVD-CDROM disc drive
+#It will also display additional information pertaining to the command
+eject -v -T /dev/sr0
+#end
