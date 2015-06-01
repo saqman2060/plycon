@@ -1,0 +1,7 @@
+#!/bin/bash
+#This script will run the ssh key generation program to create secure ssh remoting connection to other systems
+#The key type that will be generated is rsa
+
+sudo ssh-keygen -t rsa
+
+#end
