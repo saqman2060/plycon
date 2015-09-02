@@ -14,13 +14,13 @@ echo "#THE CONVENIENCE CONTAINER#
 #The list below are all convenience scripts plycon runs
 
 #play VlC#			    #Install packages from repository
-playvlc				       apinstall
+playvlc				      apinstall
 #Update ubuntu#			#open the DVD/CD-ROM#
-update_ubuntu			   openmedia
+update_ubuntu			  openmedia
 #shutdown#			    #examine the mounted partition#
-endsystem			       exdisk
+endsystem			      exdisk
 #Restart#			      #create a rsa ssh key
-systemrestart 			 sshkey
+systemrestart 			sshkey
 #Test the speed of your internet connection bidirectional#
 speedtest-cli
 
