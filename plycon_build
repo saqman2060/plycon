@@ -1,5 +1,5 @@
 #This script will build the plycon convienence script
-sudo apt-get install plython-pip
+sudo apt-get install python-pip
 sudo pip install speedtest-cli
 sudo cp ./* /usr/local/bin/
 sudo chmod u+x /usr/local/bin/*
