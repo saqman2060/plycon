@@ -13,16 +13,24 @@ echo "#THE CONVENIENCE CONTAINER#
 
 #The list below are all convenience scripts plycon runs
 
-#play VlC#			    #Install packages from repository
-playvlc				      apinstall
-#Update ubuntu#			#open the DVD/CD-ROM#
-update_ubuntu			  openmedia
-#shutdown#			    #examine the mounted partition#
-endsystem			      exdisk
-#Restart#			      #create a rsa ssh key
-systemrestart 			sshkey
+#play VlC#			    
+playvlc				     
+#Update ubuntu#		
+update_ubuntu			  
+#shutdown#			   
+endsystem			      
+#Restart#			      
+systemrestart 			
 #Test the speed of your internet connection bidirectional#
-speedtest-cli"
+speedtest-cli
+#Install packages from repository
+apinstall
+#open the DVD/CD-ROM#
+openmedia
+#examine the mounted partition#
+exdisk
+#create a rsa ssh key
+sshkey"
 
 echo "pick a convienience script to run"
 
