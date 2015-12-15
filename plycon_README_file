@@ -1,19 +1,24 @@
-#THE CONVENIENCE CONTAINER#
-#This bash script runs programs that are commonly ran on most ubuntu/linux systems with the most useful options#
-#Xubuntu is the preferred system, but it can be ran on other variants of ubuntu and debian#
-#It runs system updates, media players, opens and closes DVD/CD-ROM drives, and restarts and ends the system#
-#Annual updates and patches will be applied if needed#
-#This script has been developed and is maintained by the Author Istimsak Abdulbasir#
-#This script can be used or modified to fit your personal needs#
-
+#PLAY CONVENIENCE#
+#This script runs bash scripts or programs that are most commonly used in a linux terminal or important to the user#
+#Xubuntu is the preferred system, but it can be ran on other variants of GNU/Linux#
+#Please run #sudo sh ./plycon_build to build the plycon script database. plycon_build should be located in the same folder
+#that contains all the scripts you dowbloaded from github
 
 #The list below are all convenience scripts plycon runs
 
-#play VlC#			#Install packages from repository#			
-playvlc				apinstall
-#Update ubuntu#			#open the DVD/CD-ROM#
-update_ubuntu			openmedia
-#shutdown#			#examine the mounted partition#
-endsystem			exdisk
-#Restart#			#create a rsa ssh key
-systemrestart 
+#play VlC#					
+playvlc				
+#Update ubuntu#			
+update_ubuntu			
+#shutdown#			
+endsystem			
+#Restart#			
+systemrestart  
+#Install packages from repository#
+apinstall
+#open the DVD/CD-ROM#
+openmedia
+#examine the mounted partition#
+exdisk
+#create a rsa ssh key
+ssh-key
