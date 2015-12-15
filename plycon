@@ -22,7 +22,7 @@ endsystem			      exdisk
 #Restart#			      #create a rsa ssh key
 systemrestart 			sshkey
 #Test the speed of your internet connection bidirectional#
-speedtest-cli
+speedtest-cli"
 
 echo "pick a convienience script to run"
 
