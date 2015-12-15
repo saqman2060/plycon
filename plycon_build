@@ -1,4 +1,5 @@
 #This script will build the plycon convienence script
+#please run #sudo sh ./plycon_buld to run this file as and executable
 sudo apt-get install python-pip
 sudo pip install speedtest-cli
 sudo cp ./* /usr/local/bin/
