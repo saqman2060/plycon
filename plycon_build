@@ -5,7 +5,7 @@ sudo pip install speedtest-cli
 sudo cp ./* /usr/local/bin/
 sudo rm /usr/local/bin/plycon_README_file
 sudo chmod u+x /usr/local/bin/*
-sudo chown saqman2020 /usr/local/bin/*
+sudo chown saqman2060 /usr/local/bin/*
 sudo chgrp saqman2060 /usr/local/bin/*
 
 #End script
