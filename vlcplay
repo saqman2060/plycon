@@ -1,7 +1,7 @@
 #!/bin/bash
 #this script will run the vlc media player on all available DVD/CD-ROM directories
 if 
-	[ -x /dev/sr0]
+	[-f /dev/sr0]
 then	
 	vlc /dev/sr0
 fi
