@@ -14,7 +14,7 @@ echo "#THE CONVENIENCE CONTAINER#
 #The list below are all convenience scripts plycon runs
 
 #play VlC#			    
-playvlc				     
+vlcplay				     
 #Update ubuntu#		
 update_ubuntu			  
 #shutdown#			   
