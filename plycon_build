@@ -5,7 +5,7 @@ sudo pip install speedtest-cli
 sudo cp ./* /usr/local/bin/
 sudo rm /usr/local/bin/plycon_README_file
 sudo chmod u+x /usr/local/bin/*
-sudo chown $USER /usr/local/bin/*
-sudo chgrp $USER /usr/local/bin/*
+sudo chown "$USER" /usr/local/bin/*
+sudo chgrp "$USER" /usr/local/bin/*
 
 #End script
