@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#This script shows the time and date of the running system
+#users who are currently logged in,
+#and, how long the system as been running
+
+UPTIME=~/uptimelog.txt
+echo "Checking system uptime"
+
+#This command shows the current date
+#The output of the command ("1", which means stdout) is redirected to file variable $UPTIME
+echo "Current date and time" 1>$UPTIME
+date 1>>$UPTIME
+
+#This command displays the current day of the year, if accurate
+#The special character (+%j) tells date to display the day of the year
+echo "Number of day in the year" 1>>$UPTIME
+date +%j 1>>$UPTIME
+
+#This command lists all current users logged on the system
+echo "Current people looged in" 1>>$UPTIME
+who 1>>$UPTIME
+
+#This command displays the time the system has been running
+echo "How long has this system been running" 1>>$UPTIME
+uptime 1>>$UPTIME
+
+exit
