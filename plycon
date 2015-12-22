@@ -29,8 +29,10 @@ apinstall
 openmedia
 #examine the mounted partition#
 exdisk
-#create a rsa ssh key
-sshkey"
+#create a rsa ssh key#
+sshkey
+#Display the uptime of the your system, date, time and logged in users#
+systemuptime
 
 echo "pick a convienience script to run"
 
