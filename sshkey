@@ -3,5 +3,6 @@
 #The key type that will be generated is rsa
 
 sudo ssh-keygen -t rsa
+sudo ssh-add ~/.ssh/id_rsa.pub
 
 #end
