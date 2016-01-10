@@ -8,5 +8,5 @@ sudo chmod u+x /usr/local/bin/*
 sudo chown $USER /usr/local/bin/* 
 sudo chgrp $USER /usr/local/bin/*
 sudo rm -r ~/Downloads/plycon-master master.zip
-sudo rm -r -f ~/plycon
+#sudo rm -r -f ~/plycon
 #End script
